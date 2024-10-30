@@ -10,7 +10,6 @@ phases:
   install:
     runtime-versions:
       python: 3.11
-      docker: 20  # Add Docker runtime
   pre_build:
     commands:
       - echo "Installing dependencies..."
